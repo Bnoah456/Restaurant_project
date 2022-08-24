@@ -1,0 +1,147 @@
+*{ 
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
+
+
+nav{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgba(4, 7, 36, 0.938);
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+.logo a{
+    /*background-color: rgb(0, 255, 191);*/
+    color: rgb(224, 215, 215);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+nav ul{
+   
+    list-style: none;
+    display: flex;
+    /*background-color: rgb(112, 216, 211);*/
+    width: 25%;
+    justify-content: space-between;
+}
+
+
+nav ul li a {
+       
+    text-decoration: none;
+    color: rgb(211, 207, 207);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+nav ul li a :hover{
+    color: red;
+    transition: all 0.5s ease 0.5s ;
+}
+
+/*---------------------Nav Bar End--------------------*/
+
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+
+/*-------------Section 1- Landing Page Begin---------------------*/
+
+.pimg1{
+    
+    background-image: url(/images/rod-long-I79Pgmhmy5M-unsplash.jpg);
+    min-height: 83vh;
+}
+
+
+.about-page{
+    min-height: 300vh;
+    color: white;
+    background-color:rgba(4, 7, 36, 0.938);
+}
+
+.text-content1{
+    left: 50px;
+    top: 40px;
+    display: block;
+    padding-top: 50px;
+    color: rgb(252, 252, 235);
+}
+
+.text-content2{
+    
+    padding-top: 40px;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    color: rgb(252, 252, 235);
+}
+
+
+
+
+/*--------------Section 2 page------------------------*/
+
+
+
+.pimg2{
+    background-image: url(/images/squirrel-g2cefcfd49_1920.jpg);
+    min-height: 30vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.origins{
+    background: rgb(149, 179, 187);
+}
+
+ .three{
+    background: rgb(134, 16, 170);
+}
+
+.four{
+    background: rgb(199, 31, 101);
+}
+
+
+
