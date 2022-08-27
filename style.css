@@ -84,28 +84,27 @@ nav ul li a :hover{
 }
 
 
-.about-page{
+.about-page{ /*---------Section about------------*/
     min-height: 300vh;
     color: white;
     background-color:rgba(4, 7, 36, 0.938);
 }
 
-.text-content1{
-    left: 50px;
-    top: 40px;
-    display: block;
-    padding-top: 50px;
-    color: rgb(252, 252, 235);
+.cafeimg{
+    width: 30%;
+    
 }
 
-.text-content2{
-    
-    padding-top: 40px;
-    width: 100%;
-    display: block;
-    font-size: 30px;
+.text-content1{
+    padding-top: 20%;
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 10px;
     color: rgb(252, 252, 235);
+    text-align: left;
 }
+
+
 
 
 
